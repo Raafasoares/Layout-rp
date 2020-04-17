@@ -1,0 +1,95 @@
+.section1, .section2
+{
+    border: 2px solid rgba(142, 91, 236, 0.767);
+    background-color: rgb(143, 97, 139);
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+}
+.section1, .section2
+{
+    width: 90%;
+    height: 25; 
+    margin: 6%;
+}
+
+.titulo1
+{
+    float: right;
+    background-color: rgb(9, 255, 0);
+    color: black;
+}
+.titulo2
+{
+    float: right;
+    background-color: rgb(255, 0, 119);
+    color: black;
+}
+.titulo3
+{
+    float: right;
+    background-color: rgb(0, 132, 255);
+    color: black;
+}
+
+@media (min-width:992px)
+{
+    .section1, .section2
+    {
+        float: left;
+        width: 20%;
+        margin: 6.5%;
+    }
+
+} 
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .section1
+    {
+        float: left;
+        width: 30%;
+        margin: 9%;
+        
+    }
+    .section2
+    {
+        width: 87%;
+        float: left;
+    }
+}
+.textodentro1 
+{
+    width: 70%;
+    height: 80px;
+    margin-right: 50;
+    margin-left: 20;
+    font-family: Helvetica;
+    color: rgb(143, 197, 136);
+
+}
+.textodentro2 
+{
+    width: 70%;
+    height: 70px;
+    margin-right: 60;
+    margin-left: 30;
+    margin-top: center;
+    font-family: Helvetica;
+    color: rgb(250, 128, 169);
+    
+
+}
+.textodentro3 
+{
+    width: 70%;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: center;
+    font-family: Helvetica;
+    color: rgb(133, 177, 228);
+
+}
